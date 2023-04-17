@@ -1,0 +1,72 @@
+.about-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-20);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+.line {
+  margin: 20px auto;
+  width: 40px;
+  height: 1px;
+  background-color: #dcdcdc;
+}
+
+.body-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+.subtitle-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-14);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+.body-text-2 {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-300);
+  font-size: var(--font-size-14);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+.border-color {
+  border-right: 1px #2c425d6b solid;
+  opacity: 0.7;
+}
+
+.card-img-background {
+  background-color: var(--color-gray-0);
+}
+
+.card-title-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-16);
+  color: var(--color-blue-4);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.card {
+  border-color: var(--color-gray-0);
+}

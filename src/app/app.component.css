@@ -1,0 +1,56 @@
+.nav {
+  min-height: 80px;
+  overflow: hidden;
+  background: #ffff;
+}
+
+.logo h2,
+p {
+  font-size: 1rem;
+  display: inline-block;
+}
+
+.logo p {
+  color: #777777;
+}
+
+.logo .icono {
+  color: #bfbfbf;
+}
+
+.logo svg {
+  width: 20px;
+  height: 20px;
+}
+
+.menu .icono svg {
+  width: 20px;
+  height: 20px;
+}
+
+.c-1 {
+  background: #3da5e2;
+  opacity: 0.8;
+}
+
+.c-1:hover {
+  background: #1ba0ef;
+}
+
+.c-2 {
+  background: #005385;
+  opacity: 0.8;
+}
+
+.c-2:hover {
+  background: #00426a;
+}
+
+.c-3 {
+  background: #003855;
+  opacity: 0.8;
+}
+
+.c-3:hover {
+  background: #002d44;
+}

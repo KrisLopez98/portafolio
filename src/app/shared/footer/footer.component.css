@@ -1,0 +1,13 @@
+.redes-sociales {
+  padding: 20px 0;
+}
+
+.copy-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}

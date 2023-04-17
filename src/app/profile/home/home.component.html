@@ -1,0 +1,45 @@
+<ng-particles [id]="id" [options]="particlesOptions" (particlesInit)="particlesInit($event)"
+    (particlesLoaded)="particlesLoaded($event)" class="position-absolute">
+</ng-particles>
+
+<div class="container position-relative" style="padding-top: 10%;">
+    <div class="row">
+        <div class="col-8 offset-2 col-md-8 offset-md-2">
+            <div class="row gy-5">
+                <!-- IMAGEN -->
+                <div class="col-md-6">
+                    <div class="about-image h-100 w-100 d-flex align-items-center">
+                        <img src="assets/profile.jpeg" class="img-fluid rounded-circle aos-init aos-animate"
+                            alt="profile" />
+                    </div>
+                </div>
+                <!-- IMAGEN -->
+
+                <!-- NOMBRE -->
+                <div class="col-md-6">
+                    <div class="text-white text-center w-100 h-100 d-flex align-items-center">
+                        <div class="w-100">
+                            <h2 class="d-inline-block nombre-text">I'm Kristal</h2>
+                            <div>
+                                <p class="subtitle-text">Frontend Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- NOMBRE -->
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <div class="col d-flex justify-content-center p-3 p-sm-3">
+            <div class="mouse_scroll">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span class="m_scroll_arrows one"></span>
+                <span class="m_scroll_arrows two"></span>
+                <span class="m_scroll_arrows three"></span>
+            </div>
+        </div>
+    </div>
+</div>
