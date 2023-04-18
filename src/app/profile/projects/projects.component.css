@@ -1,36 +1,9 @@
-.projects-text {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-500);
-  font-size: var(--font-size-20);
-  letter-spacing: var(--letter-spacing-150);
-  text-align: center;
-  color: #fff;
-}
+/** FONT **/
+@import "../../styles/font.css";
 
 .line {
   margin: 20px auto;
   width: 40px;
   height: 1px;
   color: #fff;
-}
-
-.title-carousel-text {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-500);
-  font-size: var(--font-size-20);
-  letter-spacing: var(--letter-spacing-150);
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
-}
-
-.body-carousel-text {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-400);
-  font-size: var(--font-size-16);
-  letter-spacing: var(--letter-spacing-150);
-  text-align: center;
 }

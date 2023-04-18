@@ -1,0 +1,170 @@
+/** ABOUT ME COMPONENT **/
+.about-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-20);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+.description-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+.service-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-14);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+.description-service-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-300);
+  font-size: var(--font-size-14);
+  color: var(--color-gray-3);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+/** CONTACT COMPONENT **/
+.chat-text {
+  color: var(--color-gray-3);
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-24);
+  letter-spacing: var(--letter-spacing-25);
+  text-align: center;
+}
+
+.contact-me-text {
+  color: #fff;
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-24);
+  letter-spacing: var(--letter-spacing-25);
+  text-align: center;
+}
+
+input,
+textarea {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  letter-spacing: var(--letter-spacing-25);
+  text-align: center;
+  color: #fff;
+}
+
+/** HOME **/
+.name-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-700);
+  font-size: var(--font-size-34);
+  letter-spacing: var(--letter-spacing-150);
+}
+
+.job-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-28);
+  letter-spacing: var(--letter-spacing-25);
+}
+
+@media screen and (max-width: 500px) {
+  .name-text {
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-700);
+    font-size: var(--font-size-24);
+    letter-spacing: var(--letter-spacing-150);
+  }
+
+  .job-text {
+    font-family: var(--font-family);
+    font-style: var(--font-style);
+    font-weight: var(--font-weight-500);
+    font-size: var(--font-size-20);
+    letter-spacing: var(--letter-spacing-25);
+  }
+}
+
+/** PROJECTS COMPONENT **/
+.projects-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-20);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+  color: #fff;
+}
+
+.title-carousel-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-20);
+  letter-spacing: var(--letter-spacing-150);
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+
+.body-carousel-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-400);
+  font-size: var(--font-size-16);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+/** SKILLS COMPONENT**/
+.skills-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-20);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+}
+
+.card-title-text {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-14);
+  letter-spacing: var(--letter-spacing-150);
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+
+.name-tools {
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight-300);
+  font-size: var(--font-size-10);
+  letter-spacing: var(--letter-spacing-25);
+  text-align: center;
+}

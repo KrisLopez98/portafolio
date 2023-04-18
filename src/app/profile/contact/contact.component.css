@@ -1,17 +1,9 @@
+/** FONT **/
+@import "../../styles/font.css";
 /**  DIV CHAT **/
 .bg-chat {
   background-color: #fff;
   border-radius: 4px;
-}
-
-.title-one-text {
-  color: var(--color-gray-3);
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-500);
-  font-size: var(--font-size-24);
-  letter-spacing: var(--letter-spacing-25);
-  text-align: center;
 }
 
 .line {
@@ -34,27 +26,6 @@
 .bg-contact-me {
   background-color: var(--color-blue-4);
   border-radius: 4px;
-}
-
-.title-two-text {
-  color: #fff;
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-500);
-  font-size: var(--font-size-24);
-  letter-spacing: var(--letter-spacing-25);
-  text-align: center;
-}
-
-input,
-textarea {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-400);
-  font-size: var(--font-size-16);
-  letter-spacing: var(--letter-spacing-25);
-  text-align: center;
-  color: #fff;
 }
 
 textarea {

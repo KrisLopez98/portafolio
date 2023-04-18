@@ -1,12 +1,5 @@
-.skills-text {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-500);
-  font-size: var(--font-size-20);
-  letter-spacing: var(--letter-spacing-150);
-  text-align: center;
-}
-
+/** FONT **/
+@import "../../styles/font.css";
 .line {
   margin: 20px auto;
   width: 40px;
@@ -18,27 +11,7 @@
   color: #4e4e4e;
 }
 
-.card-title-text {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-500);
-  font-size: var(--font-size-14);
-  letter-spacing: var(--letter-spacing-150);
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 2rem;
-}
-
 .card {
   border-color: transparent;
   color: var(--color-gray-3);
-}
-
-.name-tools {
-  font-family: var(--font-family);
-  font-style: var(--font-style);
-  font-weight: var(--font-weight-300);
-  font-size: var(--font-size-10);
-  letter-spacing: var(--letter-spacing-25);
-  text-align: center;
 }
